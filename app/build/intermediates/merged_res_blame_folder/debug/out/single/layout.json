@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "com.example.openinapp-mergeDebugResources-46:/layout/fragment_courses.xml",
+        "source": "com.example.openinapp-main-49:/layout/fragment_courses.xml"
+    },
+    {
+        "merged": "com.example.openinapp-mergeDebugResources-46:/layout/fragment_campaigns.xml",
+        "source": "com.example.openinapp-main-49:/layout/fragment_campaigns.xml"
+    },
+    {
+        "merged": "com.example.openinapp-mergeDebugResources-46:/layout/row_loadmore.xml",
+        "source": "com.example.openinapp-main-49:/layout/row_loadmore.xml"
+    },
+    {
+        "merged": "com.example.openinapp-mergeDebugResources-46:/layout/fragment_links.xml",
+        "source": "com.example.openinapp-main-49:/layout/fragment_links.xml"
+    },
+    {
+        "merged": "com.example.openinapp-mergeDebugResources-46:/layout/links_list_item.xml",
+        "source": "com.example.openinapp-main-49:/layout/links_list_item.xml"
+    },
+    {
+        "merged": "com.example.openinapp-mergeDebugResources-46:/layout/top_location_item.xml",
+        "source": "com.example.openinapp-main-49:/layout/top_location_item.xml"
+    },
+    {
+        "merged": "com.example.openinapp-mergeDebugResources-46:/layout/shimmer_loading_layout.xml",
+        "source": "com.example.openinapp-main-49:/layout/shimmer_loading_layout.xml"
+    },
+    {
+        "merged": "com.example.openinapp-mergeDebugResources-46:/layout/activity_dashboard.xml",
+        "source": "com.example.openinapp-main-49:/layout/activity_dashboard.xml"
+    },
+    {
+        "merged": "com.example.openinapp-mergeDebugResources-46:/layout/total_clicks_item.xml",
+        "source": "com.example.openinapp-main-49:/layout/total_clicks_item.xml"
+    },
+    {
+        "merged": "com.example.openinapp-mergeDebugResources-46:/layout/top_source_item.xml",
+        "source": "com.example.openinapp-main-49:/layout/top_source_item.xml"
+    },
+    {
+        "merged": "com.example.openinapp-mergeDebugResources-46:/layout/fragment_profile.xml",
+        "source": "com.example.openinapp-main-49:/layout/fragment_profile.xml"
+    }
+]

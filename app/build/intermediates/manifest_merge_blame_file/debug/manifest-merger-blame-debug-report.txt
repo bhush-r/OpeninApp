@@ -1,0 +1,108 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.openinapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->C:\Users\Bhushan\Desktop\Internship\OpenIn-App\app\src\main\AndroidManifest.xml:5:5-79
+11-->C:\Users\Bhushan\Desktop\Internship\OpenIn-App\app\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\Bhushan\Desktop\Internship\OpenIn-App\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\Bhushan\Desktop\Internship\OpenIn-App\app\src\main\AndroidManifest.xml:6:22-64
+13
+14    <permission
+14-->[androidx.core:core:1.10.0] C:\Users\Bhushan\.gradle\caches\transforms-3\5f1df4b9414c0b4f44ab04ec8f648500\transformed\core-1.10.0\AndroidManifest.xml:22:5-24:47
+15        android:name="com.example.openinapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.10.0] C:\Users\Bhushan\.gradle\caches\transforms-3\5f1df4b9414c0b4f44ab04ec8f648500\transformed\core-1.10.0\AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.10.0] C:\Users\Bhushan\.gradle\caches\transforms-3\5f1df4b9414c0b4f44ab04ec8f648500\transformed\core-1.10.0\AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.example.openinapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.10.0] C:\Users\Bhushan\.gradle\caches\transforms-3\5f1df4b9414c0b4f44ab04ec8f648500\transformed\core-1.10.0\AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.10.0] C:\Users\Bhushan\.gradle\caches\transforms-3\5f1df4b9414c0b4f44ab04ec8f648500\transformed\core-1.10.0\AndroidManifest.xml:26:22-94
+19
+20    <application
+20-->C:\Users\Bhushan\Desktop\Internship\OpenIn-App\app\src\main\AndroidManifest.xml:8:5-28:19
+21        android:name="com.example.openinapp.OpeninApplication"
+21-->C:\Users\Bhushan\Desktop\Internship\OpenIn-App\app\src\main\AndroidManifest.xml:9:9-42
+22        android:allowBackup="true"
+22-->C:\Users\Bhushan\Desktop\Internship\OpenIn-App\app\src\main\AndroidManifest.xml:10:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.10.0] C:\Users\Bhushan\.gradle\caches\transforms-3\5f1df4b9414c0b4f44ab04ec8f648500\transformed\core-1.10.0\AndroidManifest.xml:28:18-86
+24        android:dataExtractionRules="@xml/data_extraction_rules"
+24-->C:\Users\Bhushan\Desktop\Internship\OpenIn-App\app\src\main\AndroidManifest.xml:11:9-65
+25        android:debuggable="true"
+26        android:extractNativeLibs="false"
+27        android:fullBackupContent="@xml/backup_rules"
+27-->C:\Users\Bhushan\Desktop\Internship\OpenIn-App\app\src\main\AndroidManifest.xml:12:9-54
+28        android:icon="@mipmap/ic_launcher"
+28-->C:\Users\Bhushan\Desktop\Internship\OpenIn-App\app\src\main\AndroidManifest.xml:13:9-43
+29        android:label="@string/app_name"
+29-->C:\Users\Bhushan\Desktop\Internship\OpenIn-App\app\src\main\AndroidManifest.xml:14:9-41
+30        android:supportsRtl="true"
+30-->C:\Users\Bhushan\Desktop\Internship\OpenIn-App\app\src\main\AndroidManifest.xml:15:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.OpeninApp.NoActionBar"
+32-->C:\Users\Bhushan\Desktop\Internship\OpenIn-App\app\src\main\AndroidManifest.xml:16:9-59
+33        android:usesCleartextTraffic="true" >
+33-->C:\Users\Bhushan\Desktop\Internship\OpenIn-App\app\src\main\AndroidManifest.xml:18:9-44
+34        <activity
+34-->C:\Users\Bhushan\Desktop\Internship\OpenIn-App\app\src\main\AndroidManifest.xml:19:9-27:20
+35            android:name="com.example.openinapp.ui.dashboard.DashboardActivity"
+35-->C:\Users\Bhushan\Desktop\Internship\OpenIn-App\app\src\main\AndroidManifest.xml:20:13-59
+36            android:exported="true" >
+36-->C:\Users\Bhushan\Desktop\Internship\OpenIn-App\app\src\main\AndroidManifest.xml:21:13-36
+37            <intent-filter>
+37-->C:\Users\Bhushan\Desktop\Internship\OpenIn-App\app\src\main\AndroidManifest.xml:22:13-26:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->C:\Users\Bhushan\Desktop\Internship\OpenIn-App\app\src\main\AndroidManifest.xml:23:17-69
+38-->C:\Users\Bhushan\Desktop\Internship\OpenIn-App\app\src\main\AndroidManifest.xml:23:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->C:\Users\Bhushan\Desktop\Internship\OpenIn-App\app\src\main\AndroidManifest.xml:25:17-77
+40-->C:\Users\Bhushan\Desktop\Internship\OpenIn-App\app\src\main\AndroidManifest.xml:25:27-74
+41            </intent-filter>
+42        </activity>
+43
+44        <uses-library
+44-->[androidx.window:window:1.0.0] C:\Users\Bhushan\.gradle\caches\transforms-3\7f4cd2f92fed381543ac33a03c4d5312\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+45            android:name="androidx.window.extensions"
+45-->[androidx.window:window:1.0.0] C:\Users\Bhushan\.gradle\caches\transforms-3\7f4cd2f92fed381543ac33a03c4d5312\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+46            android:required="false" />
+46-->[androidx.window:window:1.0.0] C:\Users\Bhushan\.gradle\caches\transforms-3\7f4cd2f92fed381543ac33a03c4d5312\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+47        <uses-library
+47-->[androidx.window:window:1.0.0] C:\Users\Bhushan\.gradle\caches\transforms-3\7f4cd2f92fed381543ac33a03c4d5312\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+48            android:name="androidx.window.sidecar"
+48-->[androidx.window:window:1.0.0] C:\Users\Bhushan\.gradle\caches\transforms-3\7f4cd2f92fed381543ac33a03c4d5312\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+49            android:required="false" />
+49-->[androidx.window:window:1.0.0] C:\Users\Bhushan\.gradle\caches\transforms-3\7f4cd2f92fed381543ac33a03c4d5312\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+50
+51        <provider
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Bhushan\.gradle\caches\transforms-3\60dd0f8da5b0fd590208d94bd01317f3\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+52            android:name="androidx.startup.InitializationProvider"
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Bhushan\.gradle\caches\transforms-3\60dd0f8da5b0fd590208d94bd01317f3\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+53            android:authorities="com.example.openinapp.androidx-startup"
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Bhushan\.gradle\caches\transforms-3\60dd0f8da5b0fd590208d94bd01317f3\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+54            android:exported="false" >
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Bhushan\.gradle\caches\transforms-3\60dd0f8da5b0fd590208d94bd01317f3\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+55            <meta-data
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Bhushan\.gradle\caches\transforms-3\60dd0f8da5b0fd590208d94bd01317f3\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+56                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Bhushan\.gradle\caches\transforms-3\60dd0f8da5b0fd590208d94bd01317f3\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+57                android:value="androidx.startup" />
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Bhushan\.gradle\caches\transforms-3\60dd0f8da5b0fd590208d94bd01317f3\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+58            <meta-data
+58-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Bhushan\.gradle\caches\transforms-3\a8ccd8968d8b9acfddcd22e23867e05b\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+59                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+59-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Bhushan\.gradle\caches\transforms-3\a8ccd8968d8b9acfddcd22e23867e05b\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+60                android:value="androidx.startup" />
+60-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Bhushan\.gradle\caches\transforms-3\a8ccd8968d8b9acfddcd22e23867e05b\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+61        </provider>
+62    </application>
+63
+64</manifest>
