@@ -16,6 +16,8 @@
 ## Project Overview
 OpenInApp is a project developed to enhance user experience by ensuring that social media links open in their respective apps instead of built-in browsers. This project follows modern Android development practices, adopting a single activity architecture to ensure scalability and ease of maintenance.
 
+- **APK Download Limk:** https://drive.google.com/drive/folders/1VLnDcMMidLaX_gWGWqpaZvxFB0aBY0Tc?usp=drive_link
+
 ## Features
 - **Navigation:** Single activity architecture using Jetpack Navigation.
 - **MVVM Architecture:** Ensuring separation of concerns and scalability.
