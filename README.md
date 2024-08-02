@@ -45,4 +45,4 @@ The project is designed using the MVVM (Model-View-ViewModel) architecture which
 ## Setup and Installation
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/OpenInApp.git
+   git clone https://github.com/bhush-r/OpeninApp.git
