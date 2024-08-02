@@ -33,6 +33,11 @@ The project is designed using the MVVM (Model-View-ViewModel) architecture which
 - **Maintainability & Scalability:** Easier to manage and scale the application.
 - **Code Reusability:** Components can be reused across the application.
 
+## API Integration
+- For testing phase, I utilized the MockWebServer and OkHttp Idling Resource to set up a mocked API response. This setup will allow us to verify the behavior of the application in the event of changes to the attributes in the API response. By simulating different scenarios, We could ensure that the app responded correctly and handles any variations in the API data.
+
+- To visualize the data in a graph, the project utilizes the MpChart library. The data is displayed in the graph, assuming a time frame of one month, as per the provided API specifications.
+
 ## Libraries Used
 - **Kotlin:** Primary language for development.
 - **Jetpack Navigation:** For fragment navigation.
