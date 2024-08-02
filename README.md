@@ -47,6 +47,11 @@ The project is designed using the MVVM (Model-View-ViewModel) architecture which
 - **MockWebServer & OkHttp Idling Resource:** For testing and API mocking.
 - **SharedPreferences:** For token management.
 
+    ## Screenshots
+  ![WhatsApp Image 2024-08-02 at 8 38 07 PM](https://github.com/user-attachments/assets/e7abac07-3092-432e-9a55-e6b9aca3daa6)
+
+  ![WhatsApp Image 2024-08-02 at 8 38 06 PM](https://github.com/user-attachments/assets/2605217e-fbec-495e-b1b1-e77866762d47)
+  
 ## Setup and Installation
 1. **Clone the Repository:**
    ```bash
